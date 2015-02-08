@@ -10,9 +10,10 @@ class Main extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = 'Hello World';
-		$this->load->view('templates/header', $data);
-		$this->load->view('home');
-		$this->load->view('templates/footer');
+		$this->load->view("product_details_sanchocho");
+		// $data['title'] = 'Hello World';
+		// $this->load->view('templates/header', $data);
+		// $this->load->view('home');
+		// $this->load->view('templates/footer');
 	}
 }
