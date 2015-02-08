@@ -17,7 +17,7 @@ class Main extends CI_Controller {
 	}
 	public function cart()
 	{
-		$data['title'] = 'Hello World';
+		$data['title'] = 'Cart';
 		$this->load->view('templates/header', $data);
 		$this->load->view('cart');
 		$this->load->view('templates/footer');
