@@ -64,6 +64,7 @@
 		height: 130px;
 		border: 1px solid black;
 		margin: 8px;
+		text-align: center;
 	}
 
 	.inline {
@@ -129,21 +130,21 @@
 		</form>
 
 		<div class='itemHolder'>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
-			<div class="item inline">Hello</div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
+			<div class="item inline"><a href="">SOUP</a></div>
 		</div>
 
 		<div class='pagnationlink'>
@@ -154,7 +155,6 @@
 			<li><a href="">4</a></li>
 		</ul>
 		</div>
-//
 	</div>
 
 </div>
