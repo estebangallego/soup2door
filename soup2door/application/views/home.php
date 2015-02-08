@@ -25,7 +25,6 @@
 		vertical-align: top;
 		margin: 10px;
 	}
-
 	.contents{
 		width: 750px;
 		height: 650px;
@@ -45,10 +44,10 @@
 		margin-top: 10px;
 		margin-left: 30px;
 	}
-	#pagenav ul{
+	ul.pagenav{
 		margin-left: 250px;
 	}
-	#pagenav li{
+	.pagenav li{
 		padding-left: 10px;
 		padding-right: 10px;
 		border-right: 1px solid black;
@@ -57,20 +56,36 @@
 		margin-left: 550px;
 		margin-top: 10px;
 	}
-	#item li{
-		width: 50px;
-		height: 50px;
-		border: 1px solid black;
+	.itemHolder{
+		margin-top: 30px;
 	}
-/*	#item ul {
-		margin-left: 0px;
-	}*/
+	.item {
+		width: 130px;
+		height: 130px;
+		border: 1px solid black;
+		margin: 8px;
+	}
+
+	.inline {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.pagnationlink{
+		margin-left: 120px;
+		margin-top: 40px;
+	}
+	.pagnationlink li{
+		margin-top: 30px;
+		padding-right: 40px;
+		margin: 30px;
+		border-right: 1px solid black;
+	}
 
 	</style>
 </head>
 <body>
 <div class="container">
-	<div class="row">
+<!-- 	<div class="row">
 		<div class="col-md-4"><h2>Hello World</h2></div>
 	</div>
 	<div class="row">
@@ -78,7 +93,7 @@
  		<div class="col-xs-6 col-md-3">.col-xs-6 .col-md-3</div>
  		<div class="col-xs-6 col-md-3">.col-xs-6 .col-md-3</div>
  		<div class="col-xs-6 col-md-3">.col-xs-6 .col-md-4</div>
-	</div>
+	</div> -->
 
 	<div class='sidenav'>
 		<form>
@@ -98,12 +113,13 @@
  
 	<div class='contents'>
 		<h2>Soups (page 2)</h2>
-		<ul id='pagenav'>
+		<ul class='pagenav'>
 			<li><a href="">first</a></li>
 			<li><a href="">prev</a></li>
 			<li><a href="">2</a></li>
 			<li><a href="">next</a></li>
 		</ul>
+
 		<form class='sort'>
 			Sorted by <select>
 						<option>Price</option>
@@ -112,24 +128,33 @@
 					  </select>
 		</form>
 
-		<ul id='item'>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-			<li>Hello</li>
-		</ul>
+		<div class='itemHolder'>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+			<div class="item inline">Hello</div>
+		</div>
 
+		<div class='pagnationlink'>
+		<ul>
+			<li><a href="">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+		</ul>
+		</div>
+//
 	</div>
 
 </div>
