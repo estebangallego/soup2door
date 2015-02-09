@@ -1,0 +1,29 @@
+<?php 
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+class Main extends CI_Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+	}
+	public function index()
+	{
+<<<<<<< HEAD
+		$this->load->view("product_details_sanchocho");
+		// $data['title'] = 'Hello World';
+		// $this->load->view('templates/header', $data);
+		// $this->load->view('home');
+		// $this->load->view('templates/footer');
+=======
+		echo 'sup';
+>>>>>>> new_views
+	}
+
+	public function chicken()
+	{
+		echo 'apples';
+	}
+
+}
